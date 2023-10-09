@@ -1,0 +1,15 @@
+passwd
+man man
+pwd
+users
+w
+lastlog
+w current
+who
+last
+w -s
+write user
+man date
+date +%y
+Ctrl + C
+Ctrl + L
