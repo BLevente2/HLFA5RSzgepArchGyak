@@ -1,0 +1,25 @@
+mkdir HLFA5R
+cd HLFA5R
+mkdir bokor bokor/banan bokor/mogyoro bokor/barack
+mkdir fa fa/korte
+mkdir land land/szeder land/kokusz
+cd ..
+cp -r ~/HLFA5R/land/szeder ~/HLfA5R/fa
+cp -r ~/HLFA5R/bokor/banan ~/HLFA5R/fa
+mv ~/HLFA5R/bokor/barack ~/HLFA5R/fa
+mv ~/HLFA5R/land/kokusz ~/HLFA5R/fa
+rm -r ~/HLFA5R/land
+touch ~/HLFA5R/bokor/banan/leiras.txt
+mkdir ~/HLFA5R/tree
+touch ~/HLFA5R/tree/felsorolas.txt
+cat ~/HLFA5R/bokor/banan/leiras.txt <<leiras
+Ide jon a haromsoros szoveg. (Ctrl + D)
+cat ~/HLFA5R/tree/felsorolas.txt <<nevek
+Ide jonnek a nevek, amiket messangerrol tudtam leszedni. (Ctrl + D)
+ls -R ~/HLFA5R
+cd /
+ls /?e*
+chmod 777 /home/babalevi/HLFA5R/tree/felsorolas.txt
+du /home/babalevi/HLFA5R
+cd ~/HLFA5R/tree
+sort felsorolas.txt

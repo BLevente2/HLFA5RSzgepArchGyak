@@ -1,0 +1,27 @@
+pwd
+cd /
+cd home/babalevi
+(saját gépen dolgozok, amin én vagyok a rendszergazda, ezért megegyezik az előzővel)
+cd /etc
+cd ..
+ls
+ls -l /etc /var /log (Valamiért nekem nem létezik log)
+mkdir Teszt
+mkdir /home/babalevi/Teszt/T1 /home/babalevi/Teszt/T2
+tree
+mkdir /home/babalevi/Teszt/Unix /home/babalevi/Teszt/Unix/Linux /home/babalevi/Teszt/Unix/Linux/Debian
+mv /home/babalevi/Teszt/Unix/Linux/Debian /home/babalevi/Teszt/Unix/Linux/Deb
+mv /home/babalevi/Teszt/Unix/Linux/Deb /home/babalevi/Teszt/T1
+rm -r /home/babalevi/Teszt/T1
+rm -r /home/babalevi/Teszt
+ls
+ls -l /etc
+ls /etc/*.conf
+s /etc/p*
+ls /etc/*f
+ls /etc/p?s*d
+ls -a
+ls /etc/?a* /etc/?n*
+ls --hide=?a* --hide=?n* /etc
+ls /*
+mc

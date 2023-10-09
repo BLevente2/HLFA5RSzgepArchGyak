@@ -1,0 +1,21 @@
+mkdir SzgepGyak
+cd SzgepGyak
+mkdir Proba
+mkdir Proba/Test Proba/Test/Unix
+mkdir Proba/Linux
+mkdir Check Check/Temp
+cd /etc
+tree -d (a tree parancs az /etc-re mindig hibát ad ki nekem)
+cp passwd /home/babalevi/SzgepGyak/Proba
+cp shadow /home/babalevi/SzgepGyak/Proba/Test
+cp -a *.conf /home/babalevi/SzgepGyak/Proba/Linux
+cp -a ?a?s*d /home/babalevi/SzgepGyak/Check
+mv /home/babalevi/SzgepGyak/Proba/Test /home/babalevi/SzgepGyak/Proba/Linux
+touch /home/babalevi/SzgepGyak/Check/Adatok.txt
+rm /home/babalevi/SzgepGyak/Proba/Linux/*
+rm -r /home/babalevi/SzgepGyak/Proba
+cat /etc/passwd
+less /etc/passwd
+file /bin/bash
+file/etc/passwd
+file var/log/syslog
