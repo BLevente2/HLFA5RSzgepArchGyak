@@ -1,0 +1,22 @@
+mkdir HLFA5R_1011
+cd HLFA5R_1011
+mkdir lecke3
+cd lecke3
+touch 1.md
+touch 2.md
+mkdir avenged_sevenfolder
+touch dummy.js
+touch filer_episode.mkv
+touch .hidden_file
+mkdir homework
+touch runnable
+touch script.sh
+chmod 664 1.md
+chmod 600 2.md
+chmod 755 avenged_sevenfolder
+chmod 666 dummy.js
+chmod 660 filer_episode.mkv
+chmod 644 .hidden_file
+chmod 770 homework
+chmod 755 runnable
+chmod 710 script.sh
