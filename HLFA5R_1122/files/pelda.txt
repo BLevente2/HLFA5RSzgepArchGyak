@@ -1,0 +1,7 @@
+Albert:1
+Béla:2
+Cecil:3
+Dénes:4
+Elemér:5
+Ferenc:6
+Gábor:7

@@ -1,0 +1,6 @@
+id;ne
+1;Tudodki
+2;Valaki
+3;Mindeki
+4;Senki
+5;Ön
