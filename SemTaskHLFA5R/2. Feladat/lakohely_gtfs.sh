@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Definiáljuk a letöltendő fájl URL-jét
-data_url="https://gtfsapi.mvkzrt.hu/gtfs/gtfs.zip"
+data_url="https://gtfs.kti.hu/public-gtfs/volanbusz_gtfs.zip"
 
 # Definiáljuk a letöltött fájl nevét és a kitömörítési mappát
-zip_file="gtfs.zip"
+zip_file="volanbusz_gtfs.zip"
 extract_folder="gtfs_data"
 
 # Definiáljuk a keresett lakóhelyet
-lakohely="Egyetemváros"
+lakohely="Kazincbarcika"
 
 # Ellenőrizzük, hogy meg lett-e adva a lakóhely paraméterként
 if [ "$#" -gt 0 ]; then
